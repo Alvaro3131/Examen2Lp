@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+    <style>
+    .pri{
+        height: 425px;
+        border: 1px solid rgb(156, 156, 156);
+    }
+    .seg1{
+        height: 60px;
+        border: 1px solid black;
+         padding-left: 23px;
+    }
+    .seg{
+        height: 60px;
+        padding-top: 13px;
+       
+    }
+    .cont{
+        margin-top: 60px;
+        border: 1px solid  rgb(156, 156, 156);
+        width: 400px;
+        padding: 50px;
+    }
+   
+    </style>
+</head>
+<body> 
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-1 seg1" >
+         
+              
+                    <i class="fas fa-calculator" style="font-size: 45px;"></i>
+                
+              
+           
+        </div>
+        <div class="col-11 seg">
+            <div style="display: flex; flex-direction: initial;">
+              
+                   
+                
+                <h1 style="font-size: 18px;">Operations</h1>
+            </div>
+        </div>
+        <div class="col-12 pri">
+            <div class="container cont">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Número:</label>
+                    <input type="text" class="form-control" id="numero" aria-describedby="emailHelp" placeholder=""  onkeyup="(raiz())">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Raiz:</label>
+                    <input type="text" class="form-control" id="rel" aria-describedby="emailHelp" placeholder="" disabled>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/enviar.js"></script>
+</body>
+</html>

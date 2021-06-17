@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+    .pr{
+        height: 425px;
+        border: 1px solid rgb(156, 156, 156);
+        padding-left: 50px;
+        padding-top: 23px;
+    }
+    .se1{
+        height: 60px;
+        border: 1px solid black;
+         padding-left: 25px;
+    }
+    .se{
+        height: 60px;
+        padding-top: 18px;
+       
+    }
+    .caja1{
+        height: 370px;
+        border: 1px solid rgb(156, 156, 156);
+        margin-right: 35px;
+        padding-top: 20px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .caja2{
+        height: 370px;
+        border: 1px solid rgb(156, 156, 156);
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    #enviar{
+        width: 80px;
+        float: right;
+        background-color: rgb(47, 255, 92);
+        border: none;
+    }
+   .per{
+    font-size: 18px;
+   }
+   .h1{
+          margin-top: 6px;
+          font-size: 30px;
+      }
+    </style>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1 se1" >
+             
+                  
+                        <i class="fas fa-user" style="font-size: 45px;"></i>
+                    
+                  
+               
+            </div>
+            <div class="col-11 se">
+                <div style="display: flex; flex-direction: initial;">
+                  
+                       
+                    
+                    <h1 class="per">Persons</h1>
+                </div>
+            </div>
+            <div class="col-12 pr">
+                <div class="row">
+                    <div class="col-5 caja1">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Nombre y Apellidos:</label>
+                            <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="" >
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Correo:</label>
+                            <input type="text" class="form-control" id="correo" aria-describedby="emailHelp" placeholder=""  >
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Telefono:</label>
+                            <input type="text" class="form-control" id="telefono" aria-describedby="emailHelp" placeholder=""  >
+                          </div>
+                          <div class="form-group col-md-12">
+                            <button type="button" class="btn btn-primary bo" id="enviar">Enviar</button>
+           
+                          </div>
+                    
+                    </div>
+                    <div class="col-4 caja2">
+                        <div class="row">
+                            <div class="col-12" id="name" style="display: flex; flex-direction: initial;">
+                                
+                            </div>
+                            <div class="col-12" id="corre" style="display: flex; flex-direction: initial;">
+                                
+                            </div>
+                            <div class="col-12" id="tel" style="display: flex; flex-direction: initial;">
+                                
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/enviar.js"></script>
+</body>
+</html>

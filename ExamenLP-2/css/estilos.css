@@ -1,0 +1,33 @@
+
+.caja{
+    width: 20%;
+    height: 60vh;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+  
+    
+}
+
+#bo{
+    margin-right: 20px;
+   height: 40px;
+   font-size: 15px;
+   width: 100px;
+}
+.bo{
+    margin-right: 20px;
+   height: 40px;
+   font-size: 15px;
+   width: 100px;
+}
+#bo4{
+    
+   font-size: 10px;
+
+}
